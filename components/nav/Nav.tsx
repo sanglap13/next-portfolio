@@ -7,14 +7,14 @@ import { usePathname } from "next/navigation";
 import { NAVBAR_LINKS } from "@/constants/NavbarLinks";
 //framerMotion
 import { motion } from "framer-motion";
+//types
+import { INavProps } from "@/@types/Navbar.types";
 
-interface NavProps {
-  containerStyles: string;
-  linkStyles: string;
-  underlineStyles: string;
-}
-
-const Nav = ({ containerStyles, linkStyles, underlineStyles }: NavProps) => {
+const Nav: React.FC<INavProps> = ({
+  containerStyles,
+  linkStyles,
+  underlineStyles,
+}) => {
   const paths = usePathname();
   return (
     <nav className={`${containerStyles}`}>
