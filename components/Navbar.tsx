@@ -15,7 +15,11 @@ const Navbar = () => {
           <Logo />
           <div className="flex items-center gap-x-6">
             {/* Nav */}
-            <Nav containerStyles="hidden xl:flex gap-x-8 items-center" />
+            <Nav
+              containerStyles="hidden xl:flex gap-x-8 items-center"
+              linkStyles="relative hover:text-primary transition-all"
+              underlineStyles="absolute left-0 top-full h-[2px] w-full bg-primary "
+            />
             <ThemeToggler />
             {/* MobileNav */}
             <div className="xl:hidden">
