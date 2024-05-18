@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 //components
 import ThemeToggler from "./theme/ThemeToggler";
-import Logo from "./Logo";
+import Logo from "./shared/Logo";
 import Nav from "./nav/Nav";
 import MobileNav from "./nav/MobileNav";
 import { usePathname } from "next/navigation";
@@ -26,7 +26,7 @@ const Navbar = () => {
         header
           ? " py-4 bg-white shadow-lg dark:bg-accent"
           : "py-6 dark:bg-transparent"
-      } sticky top-0 z-30 transition-all ${pathname === "/" && "bg-[#e6f0ff]"}`}
+      } sticky top-0 z-30 transition-all ${pathname === "/" && "bg-[#eff5ff]"}`}
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
