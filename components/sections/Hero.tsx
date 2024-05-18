@@ -1,10 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
+import { Download, Send } from "lucide-react";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { Button } from "../ui/button";
+//constants
 import { NAVBAR_LINKS, PAGE_LINKS } from "@/constants/NavbarLinks";
-import { Download, Send } from "lucide-react";
+//components
+import Socials from "../shared/Socials";
 
 const Hero = () => {
   return (
@@ -38,6 +41,13 @@ const Hero = () => {
                 <Download size={18} />
               </Button>
             </div>
+            {/* social links */}
+            <Socials
+              containerStyles={"flex pl-2 gap-x-6 mx-auto xl:mx-0"}
+              iconStyles={
+                "text-foreground text-[22px] hover:text-primary transition-all cursor-pointer"
+              }
+            />
           </div>
           {/* image */}
           <div className="hidden xl:flex relative ">image</div>
