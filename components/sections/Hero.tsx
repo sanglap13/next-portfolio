@@ -63,6 +63,7 @@ const Hero = () => {
               containerStyles="absolute top-[15%] -left-[5rem] "
               icon={<RiBriefcase4Fill />}
               endCountNum={6}
+              endCountText="+"
               badgeText="Months of Experience"
             />
             {/* badge 2 */}
@@ -70,6 +71,7 @@ const Hero = () => {
               containerStyles="absolute top-[66%] -left-[1rem] "
               icon={<RiTodoFill />}
               endCountNum={10}
+              // endCountText="+"
               badgeText="Finished Projects"
             />
             {/* badge 3 */}
