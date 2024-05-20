@@ -18,7 +18,7 @@ import Badge from "../shared/Badge";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-12 h-[84vh] bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text */}
@@ -31,9 +31,6 @@ const Hero = () => {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -57,10 +54,10 @@ const Hero = () => {
             />
           </div>
           {/* image */}
-          <div className="hidden xl:flex relative ">
+          <div className="hidden semi-xl:flex relative ">
             {/* badge */}
             <Badge
-              containerStyles="absolute top-[15%] -left-[5rem] "
+              containerStyles="absolute top-[15%] -left-[2rem]  xl:-left-[5rem] "
               icon={<RiBriefcase4Fill />}
               endCountNum={6}
               endCountText="+"
@@ -76,7 +73,7 @@ const Hero = () => {
             />
             {/* badge 3 */}
             <Badge
-              containerStyles="absolute top-[50%] -right-10 "
+              containerStyles="absolute top-[50%] -right-8 more-than-xl:-right-12 "
               icon={<RiTeamFill />}
               endCountNum={3}
               badgeText="Community Leader"

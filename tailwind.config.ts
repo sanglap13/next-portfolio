@@ -18,6 +18,11 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        "semi-xl": "1150px",
+        "more-than-xl": "1286px",
+        "semi-2xl": "1450px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
