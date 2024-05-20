@@ -18,7 +18,7 @@ import Badge from "../shared/Badge";
 
 const Hero = () => {
   return (
-    <section className="py-12 h-[84vh] bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-12 2xl:py-24 2xl:pt-28 h-[84vh] bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text */}
