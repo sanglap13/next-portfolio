@@ -28,9 +28,9 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Sanglap Mridha</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
+              A passionate software developer with a knack for building
+              communities and fostering an healthy environment to learn and
+              grow.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
