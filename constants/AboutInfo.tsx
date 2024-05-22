@@ -36,37 +36,37 @@ export const ABOUT_INFO = [
 
 export const ABOUT_QUALIFICATION = [
   {
-    title: "education",
+    title: "experience",
     data: [
       {
-        university: "Future Insititute of Engineering and Mangement",
-        qualification: "Bachelor of Technology in CSE",
-        years: "2020 - 2024",
+        organization: "Helix Research and Development",
+        degree_or_role: "Software Developer",
+        years: "May 2024 - Present",
       },
       {
-        university: "Future Campus School",
-        qualification: "Class 12 (Computer Science)",
-        years: "2018 - 2020",
-      },
-      {
-        university: "B. D. M. International",
-        qualification: "Class 10",
-        years: "2018",
+        organization: "Aeonix Research and Innovations",
+        degree_or_role: "Frontend Developer Intern",
+        years: "Aug 2023 - Feb 2024",
       },
     ],
   },
   {
-    title: "experience",
+    title: "education",
     data: [
       {
-        company: "Helix Research and Development",
-        role: "Software Developer",
-        years: "May 2024 - Present",
+        organization: "Future Institute of Engineering and Mangement",
+        degree_or_role: "Bachelor of Technology in CSE",
+        years: "2020 - 2024",
       },
       {
-        company: "Aeonix Research and Innovations",
-        role: "Frontend Developer Intern",
-        years: "Aug 2023 - Feb 2024",
+        organization: "Future Campus School",
+        degree_or_role: "Class 12 (Computer Science)",
+        years: "2018 - 2020",
+      },
+      {
+        organization: "B. D. M. International",
+        degree_or_role: "Class 10",
+        years: "2018",
       },
     ],
   },
