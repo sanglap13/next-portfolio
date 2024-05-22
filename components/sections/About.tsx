@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import DevImg from "../shared/DevImg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
+import { ABOUT_INFO } from "@/constants/AboutInfo";
 
 const About = () => {
   // const getData = (arr, item) => {
@@ -19,7 +20,7 @@ const About = () => {
             <DevImg
               containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
               // imgSrc="/about/developer.png"
-              imgSrc="/hero/smridha3.png"
+              imgSrc="/about/developer.png"
             />
           </div>
           {/* tabs */}
@@ -47,7 +48,35 @@ const About = () => {
               </TabsList>
               {/* tabs content */}
               <div className="text-lg mt-12 xl:mt-8">
-                <TabsContent value={"personal"}>personal</TabsContent>
+                {/* personal */}
+
+                <TabsContent value={"personal"}>
+                  <div className="text-center xl:text-left">
+                    <h3 className="h3 mb-4">
+                      Unmatched Service Quality 1- years
+                    </h3>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                      I specialize in crafting intuitive websites with
+                      cutting-edge technology, delivering dynamic and enaging
+                      user experiences.
+                    </p>
+                    {/* icons */}
+                    <div className="grid xl:grid-cols-2 gap-4 mb-12">
+                      {ABOUT_INFO.map((item, index) => {
+                        const { icon, text } = item;
+                        return (
+                          <div
+                            className="flex items-center gap-x-4 mx-auto xl:mx-0"
+                            key={index}
+                          >
+                            <div className="text-primary">{icon}</div>
+                            <div>{text}</div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </TabsContent>
                 <TabsContent value={"qualifications"}>
                   qualifications
                 </TabsContent>

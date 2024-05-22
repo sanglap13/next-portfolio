@@ -14,7 +14,7 @@ export const ABOUT_INFO = [
   },
   {
     icon: <PhoneCall size={20} />,
-    text: "Sanglap Mridha",
+    text: "nahi dunga",
   },
   {
     icon: <MailIcon size={20} />,
@@ -26,7 +26,7 @@ export const ABOUT_INFO = [
   },
   {
     icon: <GraduationCap size={20} />,
-    text: "Bachelor of Technology in Computer Science and Engineering",
+    text: "B.Tech in Computer Science & Engineering",
   },
   {
     icon: <HomeIcon size={20} />,
