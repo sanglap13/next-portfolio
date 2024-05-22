@@ -9,7 +9,7 @@ const About = () => {
   //   return arr.find((item) => item.title === title)
   // }
   return (
-    <section className="xl:h-[860px] pb-12 xl:py-24">
+    <section className="xl:h-[860px] pb-12 px-2 xl:py-24 xl:px-24">
       <div className="conatiner mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About Me
@@ -74,6 +74,12 @@ const About = () => {
                           </div>
                         );
                       })}
+                    </div>
+                    {/* language */}
+                    <div className="flex flex-col gap-y-2">
+                      <div className="text-primary">Language Profiency</div>
+                      <div className="border-b border-border"></div>
+                      <div>English, Bengali, Hindi</div>
                     </div>
                   </div>
                 </TabsContent>
