@@ -77,16 +77,16 @@ export const ABOUT_SKILLS = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS, Javascript, Typescript, SQL, C/C++",
+        name_or_img: "HTML, CSS, Javascript, Typescript, SQL, C/C++",
       },
       {
-        name: "React.js, Next.js, TailwindCss, Sass, ",
+        name_or_img: "React.js, Next.js, TailwindCss, Sass, ",
       },
       {
-        name: "Node.js, Express.js",
+        name_or_img: "Node.js, Express.js",
       },
       {
-        name: "MongoDB",
+        name_or_img: "MongoDB",
       },
     ],
   },
@@ -94,10 +94,10 @@ export const ABOUT_SKILLS = [
     title: "tools",
     data: [
       {
-        imgPath: "/about/vscode.svg",
+        name_or_img: "/about/vscode.svg",
       },
       {
-        imgPath: "/about/figma.svg",
+        name_or_img: "/about/figma.svg",
       },
     ],
   },

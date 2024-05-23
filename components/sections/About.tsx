@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import DevImg from "../shared/DevImg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
-import { ABOUT_INFO, ABOUT_QUALIFICATION } from "@/constants/AboutInfo";
+import {
+  ABOUT_INFO,
+  ABOUT_QUALIFICATION,
+  ABOUT_SKILLS,
+} from "@/constants/AboutInfo";
 import { Briefcase, GraduationCap } from "lucide-react";
 
 const About = () => {
@@ -190,7 +194,40 @@ const About = () => {
                     </div>
                   </div>
                 </TabsContent>
-                <TabsContent value={"skills"}>skills</TabsContent>
+                <TabsContent value={"skills"}>
+                  <div className="text-center xl:text-left">
+                    <h3 className="h3 mb-8">Tools I use Everyday</h3>
+                    <div>
+                      <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                      <div className="border-b border-border mb-4"></div>
+                      {/* skill list */}
+                      <div>
+                        {ABOUT_SKILLS.map((item, index) => {
+                          const { title, data } = item;
+                          return (
+                            <div key={index}>
+                              {data.map((item, index) => {
+                                if (title === "skills") {
+                                  const { name_or_img } = item;
+                                  return (
+                                    <div
+                                      className="w-2/4 text-center xl:text-left mx-auto"
+                                      key={index}
+                                    >
+                                      <div className="font-medium">
+                                        {name_or_img}
+                                      </div>
+                                    </div>
+                                  );
+                                }
+                              })}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                </TabsContent>
                 <TabsContent value={"communities"}>communities</TabsContent>
               </div>
             </Tabs>
