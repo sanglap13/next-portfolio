@@ -17,6 +17,12 @@ const config = {
         "2xl": "1400px",
       },
     },
+    // screens: {
+    //   sm: "640px",
+    //   md: "768px",
+    //   lg: "1024px",
+    //   xl: "1400px",
+    // },
     extend: {
       screens: {
         "semi-xl": "1150px",
