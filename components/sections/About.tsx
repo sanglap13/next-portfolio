@@ -3,6 +3,7 @@ import React from "react";
 import DevImg from "../shared/DevImg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
 import {
+  ABOUT_COMMUNITY,
   ABOUT_INFO,
   ABOUT_QUALIFICATION,
   ABOUT_SKILLS,
@@ -273,7 +274,39 @@ const About = () => {
                     </div>
                   </div>
                 </TabsContent>
-                <TabsContent value={"communities"}>communities</TabsContent>
+                <TabsContent value={"communities"}>
+                  <div>
+                    <h3 className="h3 mb-8 text-center xl:text-left">
+                      My Position of Responsibilities
+                    </h3>
+                    {/* communitites */}
+                    {/* <div className="grid md:grid-cols-2 gap-y-8 pl-10 sm:pl-6 md:pl-0"> */}
+                    <div className="flex flex-col gap-x-4  text-[22px] pl-[10%]  sm:px-[20%] md:px-[30%] semi-xl:px-[35%] xl:px-0">
+                      {ABOUT_COMMUNITY.map((item, index) => {
+                        const { organization, position, years } = item;
+                        return (
+                          <div className="flex mb-4 gap-x-6 group " key={index}>
+                            <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                              <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                            </div>
+                            <div>
+                              <div className="font-semibold text-xl leading-none mb-2 text-primary">
+                                {organization}
+                              </div>
+                              <div className="text-lg leading-none font-semibold  mb-1">
+                                {position}
+                              </div>
+                              <div className="text-base text-muted-foreground font-medium">
+                                {years}
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                    {/* </div> */}
+                  </div>
+                </TabsContent>
               </div>
             </Tabs>
           </div>

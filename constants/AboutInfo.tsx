@@ -102,3 +102,21 @@ export const ABOUT_SKILLS = [
     ],
   },
 ];
+
+export const ABOUT_COMMUNITY = [
+  {
+    organization: "Google Developer Student Clubs",
+    position: "Lead - FIEM",
+    years: "Jul 2023 - Present",
+  },
+  {
+    organization: "DevRelSquad",
+    position: "Chapter Lead - Kolkata",
+    years: "Apr 2024 - Present",
+  },
+  {
+    organization: "Azure Developer Community",
+    position: "Lead - Sonarpur",
+    years: "Apr 2024 - Present",
+  },
+];
