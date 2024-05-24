@@ -194,18 +194,24 @@ const About = () => {
                     </div>
                   </div>
                 </TabsContent>
+                {/* skills */}
                 <TabsContent value={"skills"}>
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-8">Tools I use Everyday</h3>
-                    <div>
-                      <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                    <div className="text-left mb-8">
+                      <h4 className="text-xl font-semibold mb-2 text-center xl:text-left">
+                        Skills
+                      </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* skill list */}
-                      <div>
+                      <div className="xl:-ml-[33%]">
                         {ABOUT_SKILLS.map((item, index) => {
                           const { title, data } = item;
                           return (
-                            <div key={index}>
+                            <div
+                              // className=" xl:-ml-52"
+                              key={index}
+                            >
                               {data.map((item, index) => {
                                 if (title === "skills") {
                                   const { name_or_img } = item;
@@ -217,6 +223,45 @@ const About = () => {
                                       <div className="font-medium">
                                         {name_or_img}
                                       </div>
+                                    </div>
+                                  );
+                                }
+                              })}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                    {/* tools */}
+                    <div>
+                      <h4 className="text-xl font-semibold mb-2 xl:text-left">
+                        Tools
+                      </h4>
+                      <div className="border-b border-border mb-4"></div>
+                      {/* tool list */}
+                      <div>
+                        {ABOUT_SKILLS.map((item, index) => {
+                          const { title, data } = item;
+                          return (
+                            <div
+                              className="flex gap-x-8 justify-center xl:justify-start"
+                              key={index}
+                            >
+                              {data.map((item, index) => {
+                                if (title === "tools") {
+                                  const { name_or_img } = item;
+                                  return (
+                                    <div
+                                      // className="w-2/4 text-center xl:text-left mx-auto"
+                                      key={index}
+                                    >
+                                      <Image
+                                        src={name_or_img}
+                                        alt="tool"
+                                        width={48}
+                                        height={48}
+                                        priority
+                                      />
                                     </div>
                                   );
                                 }
