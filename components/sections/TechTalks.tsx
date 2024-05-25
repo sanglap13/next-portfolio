@@ -7,6 +7,8 @@ import {
   CardHeader,
   CardTitle,
 } from "../ui/card";
+import Image from "next/image";
+import Link from "next/link";
 
 const TechTalks = () => {
   return (
@@ -18,19 +20,36 @@ const TechTalks = () => {
         {/* grid items */}
         <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
           {TECH_TALKS_INFO.map((talk, index) => {
-            const { icon, description, title } = talk;
+            const { icon, description, title, imgPath, redirection_link } =
+              talk;
             return (
               <Card
-                className="w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10  justify-center items-center relative"
+                className="w-full max-w-[424px] h-fit  flex flex-col pb-5  justify-center items-center relative"
                 key={index}
               >
-                <CardHeader className="text-primary absolute -top-[60px]">
-                  <div className="w-[140px] h-[80px] bg-white dark:bg-background flex justify-center items-center">
-                    {icon}
+                <a
+                  href={redirection_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative block w-full mb-6 group"
+                >
+                  <div className="relative overflow-hidden rounded-t-lg">
+                    <Image
+                      className="w-full transform transition duration-300 ease-in-out group-hover:scale-110"
+                      src={imgPath}
+                      width={400}
+                      height={400}
+                      alt="img"
+                    />
+                    <div className="absolute inset-0 bg-blue-100 opacity-50 transition-opacity  duration-300 ease-in-out group-hover:opacity-0 rounded-t-lg backdrop-blur-xl"></div>
+                    {/* <div className="absolute inset-0 flex items-center justify-center text-slate-500 text-xl font-bold opacity-100 transition-opacity duration-300 ease-in-out group-hover:opacity-0 shadow-md">
+                      Click me
+                    </div> */}
                   </div>
-                </CardHeader>
+                </a>
+
                 <CardContent className="text-center">
-                  <CardTitle className="mb-4">{title}</CardTitle>
+                  <CardTitle className="mb-4 text-primary">{title}</CardTitle>
                   <CardDescription className="text-lg">
                     {description}
                   </CardDescription>

@@ -3,20 +3,27 @@ import { Blocks, GanttChartSquare, Gem } from "lucide-react";
 export const TECH_TALKS_INFO = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "TechTalks",
+    imgPath: "/techTalks/rebase.png",
+    title: "Rebase<01>",
+    redirection_link: "https://www.youtube.com/watch?v=Y5Csp2ttVPE",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble book.",
+      "Organized by GDSC IIT Kalyani. Part of an Online hackathon. Gave a talk on 'How to minimize API calls using Web Storage'.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "TechTalks",
+    imgPath: "/techTalks/roadToGDSC.jpg",
+    redirection_link:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7176593521527644163",
+    title: "Road to GDSC",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble book.",
+      "Held at Future Insttitute of Technolgy(FIT). They donot have a GDSC chapter, so, shared my experience on how to become the 1st Lead.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "TechTalks",
+    imgPath: "/techTalks/podcast.png",
+    redirection_link: "https://www.youtube.com/watch?v=S17fq4f7t7w&t=436s",
+    title: "GDSC TorchBearers",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble book. ",
+      "Orgnanized by GDSC Leads across India. Shared my experience, insights and learnings as a GDSC Lead.",
   },
 ];
