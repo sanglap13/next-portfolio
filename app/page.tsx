@@ -1,7 +1,8 @@
 //components
 import About from "@/components/sections/About";
-import Community from "@/components/sections/Community";
+
 import Hero from "@/components/sections/Hero";
+import TechTalks from "@/components/sections/TechTalks";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
     <main>
       <Hero />
       <About />
-      <Community />
+      <TechTalks />
     </main>
   );
 }
