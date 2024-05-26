@@ -20,7 +20,8 @@
       --secondary: 210 40% 96.1%;
       --secondary-foreground: 222.2 47.4% 11.2%;
       /* --secondary-foreground: 300 0% 100%; */
-      --tertiary: 27 82% 98%;
+      /* --tertiary: 27 82% 98%; */
+      --tertiary: 210 82% 93%;
       --muted: 210 40% 96.1%;
       --muted-foreground: 215.4 16.3% 46.9%;
       --accent: 210 40% 96.1%;
