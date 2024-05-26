@@ -1,0 +1,42 @@
+export const PROJECT_INFO = [
+  {
+    image: "/work/3.png",
+    catergory: "react js",
+    name: "Nexa website",
+    description: "A website for a car company",
+    link: "/",
+    github: "https://github.com",
+  },
+  {
+    image: "/work/4.png",
+    catergory: "next js",
+    name: "Nexa website",
+    description: "A website for a car company",
+    link: "/",
+    github: "https://github.com",
+  },
+  {
+    image: "/work/2.png",
+    catergory: "next js",
+    name: "Nexa website",
+    description: "A website for a car company",
+    link: "/",
+    github: "https://github.com",
+  },
+  {
+    image: "/work/1.png",
+    catergory: "full stack",
+    name: "Nexa website",
+    description: "A website for a car company",
+    link: "/",
+    github: "https://github.com",
+  },
+  {
+    image: "/work/4.png",
+    catergory: "fullstack",
+    name: "Nexa website",
+    description: "A website for a car company",
+    link: "/",
+    github: "https://github.com",
+  },
+];
