@@ -1,4 +1,4 @@
-import ContactForm from "@/components/shared/Contactform";
+import ContactForm from "@/components/shared/ContactForm";
 import { HomeIcon, MailIcon, PhoneCall } from "lucide-react";
 import React from "react";
 
