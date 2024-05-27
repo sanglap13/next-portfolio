@@ -11,7 +11,7 @@ export const TECH_TALKS_INFO = [
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    imgPath: "/techTalks/roadToGDSC.jpg",
+    imgPath: "/techTalks/roadToGDSC.png",
     redirection_link:
       "https://www.linkedin.com/feed/update/urn:li:activity:7176593521527644163",
     title: "Road to GDSC",
