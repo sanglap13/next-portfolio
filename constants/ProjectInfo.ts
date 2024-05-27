@@ -1,25 +1,28 @@
 export const PROJECT_INFO = [
   {
-    image: "/work/3.png",
+    image: "/work/dashdesk.png",
     category: "react js",
-    name: "Nexa website",
-    description: "A website for a car company",
+    name: "DashDesk - Data Visualization Platform",
+    description:
+      "A cutting-edge Data Visualization Dashboard designed to empower businesses and individuals.",
     link: "/",
     github: "https://github.com",
   },
   {
-    image: "/work/4.png",
+    image: "/work/syncslate.png",
     category: "next js",
-    name: "Nexa website",
-    description: "A website for a car company",
+    name: "SyncSlate - Collaborative Drawing Board",
+    description:
+      "An innovative web application designed to facilitate collaborative drawing experiences in real-time.",
     link: "/",
     github: "https://github.com",
   },
   {
-    image: "/work/2.png",
-    category: "next js",
-    name: "Nexa website",
-    description: "A website for a car company",
+    image: "/work/nikelanding.png",
+    category: "react js",
+    name: "Nike Landing Page",
+    description:
+      "A responsive landing page designed for a fictitious Nike store.",
     link: "/",
     github: "https://github.com",
   },

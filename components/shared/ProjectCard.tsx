@@ -19,7 +19,7 @@ const ProjectCard: React.FC<IProjectCardProps> = ({ project }) => {
             height={250}
             alt={name}
             priority
-            className="absolute bottom-0 shadow-2xl"
+            className="absolute bottom-0 shadow-2xl rounded-t-lg"
           />
           {/* buttons */}
           <div className="flex gap-x-4">
