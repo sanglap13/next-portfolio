@@ -8,17 +8,17 @@ import {
 
 export const SOCIAL_LINKS = [
   {
-    path: "/",
+    path: "https://www.youtube.com/@MythOP",
     name: "Youtube",
     icon: <RiYoutubeFill />,
   },
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/sanglapmridha/",
     name: "Linkedin",
     icon: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/sanglap13",
     name: "Github",
     icon: <RiGithubFill />,
   },
