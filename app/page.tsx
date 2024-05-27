@@ -1,5 +1,6 @@
 //components
 import About from "@/components/sections/About";
+import Events from "@/components/sections/Events";
 
 import Hero from "@/components/sections/Hero";
 import TechTalks from "@/components/sections/TechTalks";
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <TechTalks />
       <Work />
+      <Events />
     </main>
   );
 }
