@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Input } from "../ui/input";
-import { MailIcon, User } from "lucide-react";
+import { ArrowRightIcon, MailIcon, MessageSquare, User } from "lucide-react";
 import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 
@@ -21,10 +21,13 @@ const ContactForm = () => {
       </div>
       {/* input */}
       <div className="relative flex items-center">
-        <Textarea id="name" placeholder="Name" />
-        <User className="absolute top-4 right-6" size={20} />
+        <Textarea id="message" placeholder="Type your message here" />
+        <MessageSquare className="absolute top-4 right-6" size={20} />
       </div>
-      <Button>Lets Talk</Button>
+      <Button className="flex items-center gap-x-1 max-w-[166px] ">
+        Lets Talk
+        <ArrowRightIcon size={20} />
+      </Button>
     </form>
   );
 };
