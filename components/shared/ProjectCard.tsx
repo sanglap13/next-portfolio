@@ -7,7 +7,7 @@ import Link from "next/link";
 import { Github, Link2Icon } from "lucide-react";
 
 const ProjectCard: React.FC<IProjectCardProps> = ({ project }) => {
-  const { image, catergory, name, description, link, github } = project;
+  const { image, category, name, description, link, github } = project;
   return (
     <Card className="group overflow-hidden relative">
       <CardHeader className="p-0">
@@ -44,7 +44,7 @@ const ProjectCard: React.FC<IProjectCardProps> = ({ project }) => {
       </CardHeader>
       <div className="h-full px-8 py-6">
         <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5">
-          {catergory}
+          {category}
         </Badge>
         <h4 className="h4 mb-1">{name}</h4>
         <p className="text-muted-foreground text-lg">{description}</p>

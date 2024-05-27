@@ -1,6 +1,6 @@
-interface IProjectProps {
+export interface IProjectProps {
   image: string;
-  catergory: string;
+  category: string;
   name: string;
   description: string;
   link: string;

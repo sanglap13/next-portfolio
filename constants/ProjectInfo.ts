@@ -1,7 +1,7 @@
 export const PROJECT_INFO = [
   {
     image: "/work/3.png",
-    catergory: "react js",
+    category: "react js",
     name: "Nexa website",
     description: "A website for a car company",
     link: "/",
@@ -9,7 +9,7 @@ export const PROJECT_INFO = [
   },
   {
     image: "/work/4.png",
-    catergory: "next js",
+    category: "next js",
     name: "Nexa website",
     description: "A website for a car company",
     link: "/",
@@ -17,7 +17,7 @@ export const PROJECT_INFO = [
   },
   {
     image: "/work/2.png",
-    catergory: "next js",
+    category: "next js",
     name: "Nexa website",
     description: "A website for a car company",
     link: "/",
@@ -25,7 +25,7 @@ export const PROJECT_INFO = [
   },
   {
     image: "/work/1.png",
-    catergory: "full stack",
+    category: "fullstack",
     name: "Nexa website",
     description: "A website for a car company",
     link: "/",
@@ -33,7 +33,7 @@ export const PROJECT_INFO = [
   },
   {
     image: "/work/4.png",
-    catergory: "fullstack",
+    category: "fullstack",
     name: "Nexa website",
     description: "A website for a car company",
     link: "/",
