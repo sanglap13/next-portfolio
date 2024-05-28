@@ -14,7 +14,7 @@ export const ABOUT_INFO = [
   },
   {
     icon: <PhoneCall size={20} />,
-    text: "nahi dunga",
+    text: "+91 coming soon",
   },
   {
     icon: <MailIcon size={20} />,

@@ -34,7 +34,7 @@ const Community = () => {
         </h2>
         {/* tabs */}
         <Tabs defaultValue={eventName} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+          {/* <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
             {eventNames.map((eventName, index) => {
               return (
                 <TabsTrigger
@@ -47,7 +47,7 @@ const Community = () => {
                 </TabsTrigger>
               );
             })}
-          </TabsList>
+          </TabsList> */}
           {/* tabs content */}
           <div className="text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
             {filteredEvents.map((event, index) => {

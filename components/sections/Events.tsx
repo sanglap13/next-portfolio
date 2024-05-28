@@ -20,8 +20,8 @@ const Events = () => {
         <div className="text-center mb-12">
           <h2 className="section-title mb-6 text-center mx-auto">My Events</h2>
           <p className="subtitle mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            As a community enthusiast, I love to attend and host events. Here
+            are some of the events I have been a part of.
           </p>
           <Link href="/community">
             <Button>All Events</Button>
