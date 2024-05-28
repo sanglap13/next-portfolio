@@ -17,8 +17,8 @@ const CommunityCard: React.FC<IEventCardProps> = ({ event }) => {
           <Image
             src={img}
             // src={"/events/gccdkolextended.png"}
-            width={350}
-            height={350}
+            width={600}
+            height={600}
             alt={title}
             priority
             className="absolute bottom-0 shadow-2xl rounded-t-lg w-full h-full object-cover transition-all duration-200 group-hover:scale-105 group-hover:shadow-3xl "
