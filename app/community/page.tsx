@@ -8,24 +8,24 @@ import { EVENTS_INFO } from "@/constants/EventsInfo";
 import { PROJECT_INFO } from "@/constants/ProjectInfo";
 import React, { useState } from "react";
 
-//categories
-const uniqueCategories = [
+//eventNames
+const uniqueEvents = [
   "all projects",
-  // ...Array.from(new Set(PROJECT_INFO.map((project) => project.category))),
-  ...new Set(EVENTS_INFO.map((project) => project.event_name)),
+  // ...Array.from(new Set(PROJECT_INFO.map((project) => project.eventName))),
+  ...new Set(EVENTS_INFO.map((event) => event.event_name)),
 ];
-console.log(uniqueCategories);
+console.log(uniqueEvents);
 
 const Community = () => {
-  const [categories, setCategories] = useState(uniqueCategories);
-  const [category, setCategory] = useState("all projects");
+  const [eventNames, setEventNames] = useState(uniqueEvents);
+  const [eventName, setEventName] = useState("all projects");
 
-  const filteredProjects = EVENTS_INFO.filter((project) => {
-    return category === "all projects"
-      ? project
-      : project.event_name === category;
+  const filteredEvents = EVENTS_INFO.filter((event) => {
+    return eventName === "all projects"
+      ? event
+      : event.event_name === eventName;
   });
-  console.log(filteredProjects);
+  console.log(filteredEvents);
   return (
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">
@@ -33,27 +33,27 @@ const Community = () => {
           My Community Experience
         </h2>
         {/* tabs */}
-        <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          {/* <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
-            {categories.map((category, index) => {
+        <Tabs defaultValue={eventName} className="mb-24 xl:mb-48">
+          <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+            {eventNames.map((eventName, index) => {
               return (
                 <TabsTrigger
-                  onClick={() => setCategory(category)}
-                  value={category}
+                  onClick={() => setEventName(eventName)}
+                  value={eventName}
                   key={index}
                   className="capitalize w-[162px] md:w-auto"
                 >
-                  {category}
+                  {eventName}
                 </TabsTrigger>
               );
             })}
-          </TabsList> */}
+          </TabsList>
           {/* tabs content */}
           <div className="text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
-            {filteredProjects.map((project, index) => {
+            {filteredEvents.map((event, index) => {
               return (
-                <TabsContent value={category} key={index}>
-                  <CommunityCard event={project} />
+                <TabsContent value={eventName} key={index}>
+                  <CommunityCard event={event} />
                 </TabsContent>
               );
             })}
