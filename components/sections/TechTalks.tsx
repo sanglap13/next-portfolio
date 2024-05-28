@@ -41,7 +41,7 @@ const TechTalks = () => {
                       height={400}
                       alt="img"
                     />
-                    <div className="absolute inset-0 bg-primary opacity-20 transition-opacity duration-300 ease-in-out group-hover:opacity-0 rounded-t-lg backdrop-blur-xl"></div>
+                    <div className="absolute inset-0 semi-xl:bg-primary opacity-20 transition-opacity duration-300 ease-in-out group-hover:opacity-0 rounded-t-lg semi-xl:backdrop-blur-xl"></div>
                     {/* <div className="absolute inset-0 flex items-center justify-center text-slate-500 text-xl font-bold opacity-100 transition-opacity duration-300 ease-in-out group-hover:opacity-0 shadow-md">
                       Click me
                     </div> */}
