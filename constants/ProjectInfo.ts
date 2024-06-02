@@ -27,19 +27,12 @@ export const PROJECT_INFO = [
     github: "https://github.com",
   },
   {
-    image: "/work/1.png",
+    image: "/work/workout.png",
     category: "fullstack",
-    name: "Nexa website",
-    description: "A website for a car company",
+    name: "Workout Buddy",
+    description:
+      "A workout tracker application designed to help users stay fit and healthy.",
     link: "/",
-    github: "https://github.com",
-  },
-  {
-    image: "/work/4.png",
-    category: "fullstack",
-    name: "Nexa website",
-    description: "A website for a car company",
-    link: "/",
-    github: "https://github.com",
+    github: "https://github.com/sanglap13/workout-tracker",
   },
 ];
