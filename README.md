@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PortFolio
 
-## Getting Started
+This is my Personal Portfolio showcasing my experience, projects, community experiences etc. deployed using Vercel.
 
-First, run the development server:
+## Author
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [@sanglap13](https://github.com/sanglap13)
+  (sanglapmridha@gmail.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Frontend:** Next JS 14, React, TypeScript, Shadcn UI, Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployed Link
 
-## Learn More
+[https://sanglap-mridha.vercel.app/](https://sanglap-mridha.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Home](/public/screenshots/portfolio1.PNG)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Projects](/public/screenshots/portfolio2.PNG)
 
-## Deploy on Vercel
+![Dark Mode](/public/screenshots/portfolio3.PNG)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Community](/public/screenshots/portfolio4.PNG)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Open for Contributions
+
+Steps to contribute
+
+1. **Fork the Repo**
+
+2. **Make a new branch, preferably using dev/your-name convention**
+
+3. **Then raise an PR**
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
