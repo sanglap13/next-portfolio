@@ -8,6 +8,8 @@ import Footer from "@/components/Footer";
 //themeprovider
 import ThemeProvider from "@/components/theme/ThemeProvider";
 
+import { Analytics } from "@vercel/analytics/react";
+
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -28,6 +30,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
