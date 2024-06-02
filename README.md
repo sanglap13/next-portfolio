@@ -9,7 +9,7 @@ This is my Personal Portfolio showcasing my experience, projects, community expe
 
 ## Tech Stack
 
-**Frontend:** Next JS 14, React, TypeScript, Shadcn UI, Tailwind CSS
+**Frontend:** Next JS 14, React, TypeScript, Shadcn UI, Tailwind CSS, Framer Motion.
 
 **Analytics:** Vercel Analytics
 
@@ -43,4 +43,5 @@ Steps to contribute
 - [React](https://react.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [FramerMotion](https://www.framer.com/motion/)
 - [VercelAnalytics](https://vercel.com/docs/analytics)
