@@ -11,6 +11,8 @@ This is my Personal Portfolio showcasing my experience, projects, community expe
 
 **Frontend:** Next JS 14, React, TypeScript, Shadcn UI, Tailwind CSS
 
+**Analytics:** Vercel Analytics
+
 ## Deployed Link
 
 [https://sanglap-mridha.vercel.app/](https://sanglap-mridha.vercel.app/)
@@ -41,3 +43,4 @@ Steps to contribute
 - [React](https://react.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [VercelAnalytics](https://vercel.com/docs/analytics)
