@@ -6,7 +6,7 @@ export const PROJECT_INFO = [
     description:
       "A cutting-edge Data Visualization Dashboard designed to empower businesses and individuals.",
     link: "/",
-    github: "https://github.com",
+    github: "https://github.com/sanglap13/data-visualization-dashboard",
   },
   {
     image: "/work/syncslate.png",
@@ -15,7 +15,7 @@ export const PROJECT_INFO = [
     description:
       "An innovative web application designed to facilitate collaborative drawing experiences in real-time.",
     link: "/",
-    github: "https://github.com",
+    github: "https://github.com/sanglap13/sync-slate",
   },
   {
     image: "/work/nikelanding.png",
@@ -24,7 +24,7 @@ export const PROJECT_INFO = [
     description:
       "A responsive landing page designed for a fictitious Nike store.",
     link: "/",
-    github: "https://github.com",
+    github: "https://github.com/sanglap13/nike-landing-page",
   },
   {
     image: "/work/workout.png",
