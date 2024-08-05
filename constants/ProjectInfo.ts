@@ -1,14 +1,5 @@
 export const PROJECT_INFO = [
   {
-    image: "/work/dashdesk.png",
-    category: "react js",
-    name: "DashDesk - Data Visualization Platform",
-    description:
-      "A cutting-edge Data Visualization Dashboard designed to empower businesses and individuals.",
-    link: "/projects",
-    github: "https://github.com/sanglap13/data-visualization-dashboard",
-  },
-  {
     image: "/work/syncslate.png",
     category: "next js",
     name: "SyncSlate - Collaborative Drawing Board",
@@ -16,6 +7,15 @@ export const PROJECT_INFO = [
       "An innovative web application designed to facilitate collaborative drawing experiences in real-time.",
     link: "/projects",
     github: "https://github.com/sanglap13/sync-slate",
+  },
+  {
+    image: "/work/datadesk.png",
+    category: "django",
+    name: "DataDesk - IoT Analytics Platform",
+    description:
+      "A mini IoT data analytics platform that simulate data, streaming from multiple IoT devices.",
+    link: "/projects",
+    github: "https://github.com/sanglap13/iot-data-analysis-dashboard",
   },
   {
     image: "/work/nikelanding.png",
@@ -34,5 +34,15 @@ export const PROJECT_INFO = [
       "A workout tracker application designed to help users stay fit and healthy.",
     link: "/projects",
     github: "https://github.com/sanglap13/workout-tracker",
+  },
+
+  {
+    image: "/work/dashdesk.png",
+    category: "react js",
+    name: "DashDesk - Data Visualization Platform",
+    description:
+      "A cutting-edge Data Visualization Dashboard designed to empower businesses and individuals.",
+    link: "/projects",
+    github: "https://github.com/sanglap13/data-visualization-dashboard",
   },
 ];
