@@ -5,8 +5,8 @@ export const PROJECT_INFO = [
     name: "DashDesk - Data Visualization Platform",
     description:
       "A cutting-edge Data Visualization Dashboard designed to empower businesses and individuals.",
-    link: "/",
-    github: "https://github.com",
+    link: "/projects",
+    github: "https://github.com/sanglap13/data-visualization-dashboard",
   },
   {
     image: "/work/syncslate.png",
@@ -14,8 +14,8 @@ export const PROJECT_INFO = [
     name: "SyncSlate - Collaborative Drawing Board",
     description:
       "An innovative web application designed to facilitate collaborative drawing experiences in real-time.",
-    link: "/",
-    github: "https://github.com",
+    link: "/projects",
+    github: "https://github.com/sanglap13/sync-slate",
   },
   {
     image: "/work/nikelanding.png",
@@ -23,16 +23,16 @@ export const PROJECT_INFO = [
     name: "Nike Landing Page",
     description:
       "A responsive landing page designed for a fictitious Nike store.",
-    link: "/",
-    github: "https://github.com",
+    link: "/projects",
+    github: "https://github.com/sanglap13/nike-landing-page",
   },
   {
     image: "/work/workout.png",
-    category: "fullstack",
+    category: "mern stack",
     name: "Workout Buddy",
     description:
       "A workout tracker application designed to help users stay fit and healthy.",
-    link: "/",
+    link: "/projects",
     github: "https://github.com/sanglap13/workout-tracker",
   },
 ];

@@ -39,8 +39,8 @@ export const ABOUT_QUALIFICATION = [
     title: "experience",
     data: [
       {
-        organization: "Helix Research and Development",
-        degree_or_role: "Software Developer",
+        organization: "Scriptures Research and Development",
+        degree_or_role: "Software Developer (Freelance)",
         years: "May 2024 - Present",
       },
       {
