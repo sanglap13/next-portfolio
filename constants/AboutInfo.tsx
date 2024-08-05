@@ -39,9 +39,14 @@ export const ABOUT_QUALIFICATION = [
     title: "experience",
     data: [
       {
+        organization: "Stealth Startup",
+        degree_or_role: "Frontend Developer (Freelance)",
+        years: "June 2024 - Present",
+      },
+      {
         organization: "Scriptures Research and Development",
-        degree_or_role: "Software Developer (Freelance)",
-        years: "May 2024 - Present",
+        degree_or_role: "Full-Stack Developer (Freelance)",
+        years: "May 2024 - June 2024",
       },
       {
         organization: "Aeonix Research and Innovations",
@@ -55,7 +60,7 @@ export const ABOUT_QUALIFICATION = [
     data: [
       {
         organization: "Future Institute of Engineering and Mangement",
-        degree_or_role: "Bachelor of Technology in CSE",
+        degree_or_role: "B.Tech in Computer Science & Engineering",
         years: "2020 - 2024",
       },
       {
@@ -105,11 +110,6 @@ export const ABOUT_SKILLS = [
 
 export const ABOUT_COMMUNITY = [
   {
-    organization: "Google Developer Student Clubs",
-    position: "Lead - FIEM",
-    years: "Jul 2023 - Present",
-  },
-  {
     organization: "DevRelSquad",
     position: "Chapter Lead - Kolkata",
     years: "Apr 2024 - Present",
@@ -118,5 +118,10 @@ export const ABOUT_COMMUNITY = [
     organization: "Azure Developer Community",
     position: "Lead - Sonarpur",
     years: "Apr 2024 - Present",
+  },
+  {
+    organization: "Google Developer Student Clubs",
+    position: "Lead - FIEM",
+    years: "Jul 2023 - Jul 2024",
   },
 ];
