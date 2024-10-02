@@ -39,9 +39,9 @@ export const ABOUT_QUALIFICATION = [
     title: "experience",
     data: [
       {
-        organization: "Stealth Startup",
-        degree_or_role: "Frontend Developer (Freelance)",
-        years: "June 2024 - Present",
+        organization: "Altor Smart Mobility",
+        degree_or_role: "Software Engineer",
+        years: "September 2024 - Present",
       },
       {
         organization: "Scriptures Research and Development",
