@@ -59,14 +59,14 @@ const About = () => {
                 <TabsContent value={"personal"}>
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Streamer turned to Software Developer
+                      Streamer turned into Software Developer
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      A passionate fresher starting his career as a Software
+                      A passionate coder starting his career as a Software
                       Developer. A quick learner and have a keen interest in web
                       development. A team player with a good understanding of
-                      FrontEnd Development. Always looking for opportunities to
-                      work with a team and grow.
+                      Full-Stack Development. Always looking for opportunities
+                      to work with a team and grow.
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
