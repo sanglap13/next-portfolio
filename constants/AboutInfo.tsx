@@ -18,11 +18,11 @@ export const ABOUT_INFO = [
   },
   {
     icon: <MailIcon size={20} />,
-    text: "sanglapmridha@gmail.com",
+    text: "sanglapmridhawork@gmail.com",
   },
   {
     icon: <Calendar size={20} />,
-    text: "Age 21+",
+    text: "Age 22+",
   },
   {
     icon: <GraduationCap size={20} />,
@@ -82,16 +82,18 @@ export const ABOUT_SKILLS = [
     title: "skills",
     data: [
       {
-        name_or_img: "HTML, CSS, Javascript, Typescript, SQL, C/C++",
+        name_or_img:
+          "HTML, CSS, Javascript, Typescript, SQL, C/C++, Python, Java.",
       },
       {
-        name_or_img: "React.js, Next.js, TailwindCss, Sass, ",
+        name_or_img:
+          "React.js, Next.js, TailwindCSS, Sass, Material UI, Shadcn UI, Firebase, Zustand, Tanstack Query.",
       },
       {
-        name_or_img: "Node.js, Express.js",
+        name_or_img: "Node.js, Express.js, Flask, Django.",
       },
       {
-        name_or_img: "MongoDB",
+        name_or_img: "PostgreSQL, MySQL, MongoDB",
       },
     ],
   },
