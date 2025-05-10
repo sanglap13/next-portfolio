@@ -28,10 +28,18 @@ export const TECH_TALKS_INFO = [
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    imgPath: "/techTalks/podcast.png",
-    redirection_link: "https://www.youtube.com/watch?v=S17fq4f7t7w&t=436s",
-    title: "GDSC TorchBearers",
+    imgPath: "/techTalks/devfestDurgapur.jpg",
+    redirection_link: "https://www.youtube.com/watch?v=PtrHCaTcRxU",
+    title: "Devfest Durgapur 2024",
     description:
-      "Orgnanized by GDSC Leads across India. Shared my experience, insights and learnings as a GDSC Lead.",
+      "Organised by GDG Durgapur. Gave a talk on Caching titled 'Cache me if you can!'",
+  },
+  {
+    icon: <Gem size={72} strokeWidth={0.8} />,
+    imgPath: "/techTalks/devfestAhlen.jpg",
+    redirection_link: "https://www.youtube.com/watch?v=RZqCeJ_ybN4",
+    title: "Devfest Ahlen 2025",
+    description:
+      "Organised by GDG Ahlen. Gave a talk on Web Accessibility titled 'Accessibility for All: Building Inclusive Web Applications'",
   },
 ];
