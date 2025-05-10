@@ -39,9 +39,14 @@ export const ABOUT_QUALIFICATION = [
     title: "experience",
     data: [
       {
+        organization: "Cozeva - Applied Research Works",
+        degree_or_role: "SDE I",
+        years: "April 2025 - Present",
+      },
+      {
         organization: "Altor Smart Mobility",
         degree_or_role: "Software Engineer",
-        years: "September 2024 - Present",
+        years: "September 2024 - April 2025",
       },
       {
         organization: "Scriptures Research and Development",
@@ -114,11 +119,6 @@ export const ABOUT_COMMUNITY = [
   {
     organization: "DevRelSquad",
     position: "Chapter Lead - Kolkata",
-    years: "Apr 2024 - Present",
-  },
-  {
-    organization: "Azure Developer Community",
-    position: "Lead - Sonarpur",
     years: "Apr 2024 - Present",
   },
   {

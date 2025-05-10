@@ -26,4 +26,12 @@ export const TECH_TALKS_INFO = [
     description:
       "Orgnanized by GDSC Leads across India. Shared my experience, insights and learnings as a GDSC Lead.",
   },
+  {
+    icon: <Gem size={72} strokeWidth={0.8} />,
+    imgPath: "/techTalks/podcast.png",
+    redirection_link: "https://www.youtube.com/watch?v=S17fq4f7t7w&t=436s",
+    title: "GDSC TorchBearers",
+    description:
+      "Orgnanized by GDSC Leads across India. Shared my experience, insights and learnings as a GDSC Lead.",
+  },
 ];
